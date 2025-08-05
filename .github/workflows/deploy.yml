@@ -34,12 +34,14 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Upload production-ready build files
+      # This is the single, correct step to upload the artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # This path is 'dist' for Vite projects, which is correct for you.
-          path: './dist' 
+          # This path should be './dist' for your Vite project
+          path: './dist'
 
+      # This is the final step to deploy the uploaded artifact
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
