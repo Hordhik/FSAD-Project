@@ -13,7 +13,8 @@ export const Current = () => {
                   </div>
                 </div>
                 <div >
-                  <img src="/albums/salar.jpg" alt="Salaar Album Cover" className="currently_album" />
+                  {/* This is the line that has been fixed */}
+                  <img src={`${import.meta.env.BASE_URL}albums/salar.jpg`} alt="Salaar Album Cover" className="currently_album" />
                 </div>
                 <div className='track_details'>
                 <div className="song_info">

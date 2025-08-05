@@ -4,18 +4,18 @@ import './Player.css';
 export const Player = () => {
   const audioRef = useRef(null);
 
-  const playlist = [
+const playlist = [
     {
       title: "Vardha's One Man Army",
-      src: "/songs/SpotiDownloader.com - Vardha's One Man Army - Ravi Basrur.mp3"
+      src: `${import.meta.env.BASE_URL}songs/SpotiDownloader.com - Vardha's One Man Army - Ravi Basrur.mp3`
     },
     {
       title: "Adiga Adiga",
-      src: "/songs/SpotiDownloader.com - Adiga Adiga - Sid Sriram.mp3"
+      src: `${import.meta.env.BASE_URL}songs/SpotiDownloader.com - Adiga Adiga - Sid Sriram.mp3`
     },
     {
       title: "Rock On Bro",
-      src: "/songs/SpotiDownloader.com - Rock On Bro - Raghu Dixit.mp3"
+      src: `${import.meta.env.BASE_URL}songs/SpotiDownloader.com - Rock On Bro - Raghu Dixit.mp3`
     }
     // Add more songs here as needed
   ];

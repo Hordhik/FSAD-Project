@@ -33,7 +33,7 @@ export const Library = () => {
             <div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/Icons_music_platform/likedalbum.png' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}Icons_music_platform/likedalbum.png`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Liked Songs</h4>
                       <p className='role play_list_album_para'>
@@ -45,7 +45,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/allTimeHindhi.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/allTimeHindhi.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>All Time Top 50</h4>
                       <p className='role play_list_album_para'>
@@ -58,7 +58,7 @@ export const Library = () => {
 
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/Devara.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/Devara.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Devara</h4>
                       <p className='role play_list_album_para'>
@@ -69,7 +69,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/maatavinali.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/maatavinali.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Hari Hara Veera Mallu</h4>
                       <p className='role play_list_album_para'>
@@ -80,7 +80,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/salar.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/salar.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Saalar</h4>
                       <p className='role play_list_album_para'>
@@ -91,7 +91,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/pushpa.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/pushpa.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Pushpa</h4>
                       <p className='role play_list_album_para'>
@@ -102,7 +102,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/jersy.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/jersy.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Jersey</h4>
                       <p className='role play_list_album_para'>
@@ -113,7 +113,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/orange.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/orange.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Orange</h4>
                       <p className='role play_list_album_para'>
@@ -124,7 +124,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/Animal-2.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/Animal-2.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Animal</h4>
                       <p className='role play_list_album_para'>
@@ -135,7 +135,7 @@ export const Library = () => {
               </div>
               <div className='play_list_card'>
                 <div className='d-flex flex-row justify-content-start'>
-                    <img src='/albums/maharshi.jpg' alt='Liked Album' className='play_list_albums'/>
+                    <img src={`${import.meta.env.BASE_URL}albums/maharshi.jpg`} alt='Liked Album' className='play_list_albums'/>
                     <div className="play_list_album_details">
                       <h4 className='artist_name play_list_album_title'>Maharshi</h4>
                       <p className='role play_list_album_para'>
