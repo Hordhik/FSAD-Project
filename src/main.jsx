@@ -4,14 +4,12 @@ import './index.css';
 import App from './App.jsx';
 import { BrowserRouter } from 'react-router-dom';
 
-// Dynamically set the basename based on the current URL path
-const basename = window.location.pathname.includes('Music_Streaming_Platform') 
-  ? '/Music_Streaming_Platform' 
-  : '/';
+// The root of your app on GitHub Pages is your repository name
+const repoName = '/FSAD-Project';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename={basename}>
+    <BrowserRouter basename={repoName}>
       <App />
     </BrowserRouter>
   </StrictMode>
