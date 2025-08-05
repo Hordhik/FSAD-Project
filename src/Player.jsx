@@ -4,7 +4,7 @@ import './Player.css';
 export const Player = () => {
   const audioRef = useRef(null);
 
-const playlist = [
+  const playlist = [
     {
       title: "Vardha's One Man Army",
       src: `${import.meta.env.BASE_URL}songs/SpotiDownloader.com - Vardha's One Man Army - Ravi Basrur.mp3`
